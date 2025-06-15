@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kyara Beverages</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+ <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top" ;>
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.jpg" alt="Kyara Logo" class="kyara-logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#heading">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Hero Section -->
+  <header class="hero" id="heading">
+    <h1>Kyara Beverages</h1>
+    <p>Refreshment redefined for everyone</p>
+  </header>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <h2 class="about-heading mb-4">About Our Mission</h2>
+          <p class="about-text">
+            At Kyara Beverages, our mission is to redefine refreshment with every sip.
+            We craft delightful ready-to-drink beverages that balance elegance, health, and bold flavor.
+          </p>
+          <p class="about-text">
+            Rooted in passion and driven by innovation, we aim to uplift everyday moments—one beautiful bottle at a time.
+          </p>
+        </div>
+        <div class="col-lg-5 text-center">
+          <img src="images/about.jpg" alt="Kyara Drink" class="img-fluid rounded shadow-sm" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Teaser Section -->
+  <section class="products-section" id="products">
+    <div class="container">
+      <h2 class="products-heading mb-5">Discover Our Signature Drinks</h2>
+      <div class="row g-4 align-items-stretch">
+        <!-- Product 1 -->
+        <div class="col-md-4">
+          <div class="product-card animate-fade">
+            <img src="images/drink1.jpg" alt="Berry Sparkle" class="product-img">
+            <h5 class="product-name">Berry Sparkle</h5>
+            <p class="product-desc">A fruity fizz that refreshes your soul.</p>
+            <a href="#" class="btn see-more-btn mt-2">See More</a>
+            <a href="#" class="btn see-more-btn mt-2">Buy Now</a>
+          </div>
+        </div>
+        <!-- Product 2 -->
+        <div class="col-md-4">
+          <div class="product-card animate-fade delay-1">
+            <img src="images/drink2.jpg" alt="Citrus Glow" class="product-img">
+            <h5 class="product-name">Citrus Glow</h5>
+            <p class="product-desc">Zesty and energizing — your perfect pick-me-up.</p>
+            <a href="#" class="btn see-more-btn mt-2">See More</a>
+            <a href="#" class="btn see-more-btn mt-2">Buy Now</a>
+          </div>
+        </div>
+        <!-- Product 3 -->
+        <div class="col-md-4">
+          <div class="product-card animate-fade delay-2">
+            <img src="images/drink3.jpg" alt="Mint Bliss" class="product-img">
+            <h5 class="product-name">Mint Bliss</h5>
+            <p class="product-desc">Cool minty freshness in every sip.</p>
+            <a href="#" class="btn see-more-btn mt-2">See More</a>
+            <a href="#" class="btn see-more-btn mt-2">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Contact Section -->
+
+
+<section class="contact-section py-5" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2 class="contact-heading mb-3">Contact Us</h2>
+        <p class="contact-subtext mb-4">
+          Have a query or feedback? We'd love to hear from you!
+          Fill out the form and we'll get back to you shortly.
+        </p>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control rounded-pill" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control rounded-pill" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control rounded-pill" id="phone" placeholder="Optional">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea class="form-control rounded-4" id="message" rows="4" placeholder="Type your message..." required></textarea>
+          </div>
+          <button type="submit" class="btn see-more-btn px-4">Send Message</button>
+        </form>
+      </div>
+      <div class="col-lg-6 d-none d-lg-flex align-items-center justify-content-center">
+        <img src="images/contact.png" alt="Contact Illustration" class="img-fluid rounded shadow hello " style="max-height: 400px; ">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer-section text-center py-4 mt-2" style="background: #fff4f6; border-top: 1px solid #f3c7d0;">
+  <div class="container">
+    <p class="mb-2" style="color: #5a3f3f; font-size: 1rem;">
+      © 2025 Kyara Beverages. All rights reserved.
+    </p>
+    <a href="mailto:career@kyarabeverages.in" style="color: #a46c6c; text-decoration: none; font-weight: 500;">
+      career@kyarabeverages.in
+    </a>
+  </div>
+</footer>
+
+
+
+
+
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
